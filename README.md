@@ -46,12 +46,19 @@ pip install -r requirements.txt
     "address": "LITECOIN_ADDRESS_ASSOCIATED_WITH_THE_PRIVATE_KEY"
 }
 ```
-5. Create and configure the `webreceipts.txt` file:
+5. Configure `stats.json` file:
+```json
+{
+    "total_deals": 0,
+    "total_amount": 0
+}
+```
+7. Create and configure the `webreceipts.txt` file:
 - This file will store receipt IDs from successful transactions to ensure that each receipt is used only once.
 
-6. Important Note: The `ltc2usd.json` file is automatically updated by the bot to reflect current Litecoin to USD conversion rates. Do not modify this file manually.
+7. Important Note: The `ltc2usd.json` file is automatically updated by the bot to reflect current Litecoin to USD conversion rates. Do not modify this file manually.
 
-7. Run the bot:
+8. Run the bot:
 
 ```bash
 python bot.py
@@ -74,6 +81,7 @@ python bot.py
 - `/ping`: Displays the bot's ping in an embed.
 - `/addbal`: Shows the hot wallet address and balance. Allows adding balance to the hot wallet.
 - `/changeca`: Updates the CashApp ID in `config.json`.
+- `/stats`: Displays the bot's statistics, including the total number of deals completed and the total amount of deals.
 
 ### 3. Buttons:
 - Proceed: Starts the conversion process. Opens a modal to input the amount in USD.
@@ -84,6 +92,7 @@ python bot.py
 ## Configuration Files
 - `config.json`: Contains bot settings including tokens, channel IDs, and API keys.
 - `hotwallet.json`: Stores the hot wallet address for transactions.
+- `stats.json`: Tracks the total number of deals completed and the total amount of deals.
 - `webreceipts.txt`: Tracks receipt IDs to avoid duplication. Each receipt ID is stored here once used to ensure it is not reused.
 - `ltc2usd.json`: Automatically updated by the bot with current Litecoin to USD conversion rates. Do not modify it manually.
 
