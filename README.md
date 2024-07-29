@@ -26,7 +26,7 @@ cd auto-cashapp-to-litecoin
 pip install -r requirements.txt
 ```
 3. Configure the config.json file:
-```
+```json
 {
     "bot_token": "YOUR_DISCORD_BOT_TOKEN",
     "ltc_transaction_fees": 0.00014,
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 }
 ```
 4. Configure the hotwallet.json file:
-```bash
+```json
 {
     "private_key": "LITECOIN_PRIVATE_KEY",
     "address": "LITECOIN_ADDRESS_ASSOCIATED_WITH_THE_PRIVATE_KEY"
