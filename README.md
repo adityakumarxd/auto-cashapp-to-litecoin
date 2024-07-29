@@ -70,3 +70,20 @@ python bot.py
     - Send Litecoin: The bot sends the Litecoin to the provided address using the Tatum API.
 - End of Process: After the conversion, the bot sends a confirmation message and closes the ticket channel.
 
+### 2. Commands:
+- `/ping`: Displays the bot's ping in an embed.
+- `/addbal`: Shows the hot wallet address and balance. Allows adding balance to the hot wallet.
+- `/changeca`: Updates the CashApp ID in `config.json`.
+
+### 3. Buttons:
+- Proceed: Starts the conversion process. Opens a modal to input the amount in USD.
+- Close: Closes the ticket and disables all buttons. No further actions can be taken.
+- Confirm: Confirms the exchange amount and provides instructions for payment.
+- Reset: Resets the process, allowing the user to input a new amount and starting the modal over.
+
+## Configuration Files
+- `config.json`: Contains bot settings including tokens, channel IDs, and API keys.
+- `hotwallet.json`: Stores the hot wallet address for transactions.
+- `webreceipts.txt`: Tracks receipt IDs to avoid duplication. Each receipt ID is stored here once used to ensure it is not reused.
+- `ltc2usd.json`: Automatically updated by the bot with current Litecoin to USD conversion rates. Do not modify it manually.
+
