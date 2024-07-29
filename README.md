@@ -57,4 +57,16 @@ pip install -r requirements.txt
 python bot.py
 ```
 
+## How It Works
+### 1. Interaction with the Bot:
+
+- Creating Tickets: Users can create a ticket by clicking a button, which generates a new private channel where the user can interact with the bot.
+- CashApp to Litecoin Conversion:
+    - Initiate Conversion: After creating a ticket, users can start the conversion process by clicking the Proceed button.
+    - Enter Amount: The bot prompts users to enter the amount in USD that they want to convert.
+    - Confirm Amount: Users confirm the amount, and the bot calculates the equivalent Litecoin value.
+    - Enter CashApp Receipt URL: Users provide a CashApp receipt URL. The bot validates the URL and processes it.
+    - Enter Litecoin Address: Users input their Litecoin address where the converted funds will be sent.
+    - Send Litecoin: The bot sends the Litecoin to the provided address using the Tatum API.
+- End of Process: After the conversion, the bot sends a confirmation message and closes the ticket channel.
 
