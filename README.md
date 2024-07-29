@@ -25,7 +25,7 @@ cd auto-cashapp-to-litecoin
 ```bash
 pip install -r requirements.txt
 ```
-3. Configure the config.json file:
+3. Configure the `config.json` file:
 ```json
 {
     "bot_token": "YOUR_DISCORD_BOT_TOKEN",
@@ -39,17 +39,17 @@ pip install -r requirements.txt
 
 }
 ```
-4. Configure the hotwallet.json file:
+4. Configure the `hotwallet.json` file:
 ```json
 {
     "private_key": "LITECOIN_PRIVATE_KEY",
     "address": "LITECOIN_ADDRESS_ASSOCIATED_WITH_THE_PRIVATE_KEY"
 }
 ```
-5. Create and configure the webreceipts.txt file:
+5. Create and configure the `webreceipts.txt` file:
 - This file will store receipt IDs from successful transactions to ensure that each receipt is used only once.
 
-6. Important Note: The ltc2usd.json file is automatically updated by the bot to reflect current Litecoin to USD conversion rates. Do not modify this file manually.
+6. Important Note: The `ltc2usd.json` file is automatically updated by the bot to reflect current Litecoin to USD conversion rates. Do not modify this file manually.
 
 7. Run the bot:
 
