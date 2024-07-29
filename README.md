@@ -11,7 +11,7 @@ The Auto Cashapp to Litecoin Bot is a Discord bot designed to facilitate the con
 
 ## Setup
 ### Prerequisites
-1. Python: Ensure you have Python 3.8 or later installed.
+1. Python: Ensure you have Python 3.10 or later installed.
 2. Discord Bot Token: Create a bot on [Discord Developer Portal](https://discord.com/developers/applications) and get your token.
 3. Tatum API Key: Obtain an API key from [Tatum](https://dashboard.tatum.io/) for handling Litecoin transactions.
 
