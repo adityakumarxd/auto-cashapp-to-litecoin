@@ -33,7 +33,7 @@ pip install -r requirements.txt
     "tatum_api_key": "YOUR_TATUM_API_KEY",
     "ticket_channel_id": "TICKET_CHANNEL_ID",
     "ticket_category_id": "TICKET_CATEGORY_ID",
-    "cashapp_id": "YOUR_CASHAPP_ID"
+    "cashapp_id": "YOUR_CASHAPP_ID",
     "exchange_fee_percentage": 5,
     "owner_ids": [USER_ID_1, USER_ID_2, USER_ID_3...]
 
