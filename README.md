@@ -1,5 +1,7 @@
 # Auto Cashapp to Litecoin Bot
 
+-# The source code for this bot will be released once the repository reaches **100 stars**. Stay tuned for updates and star the repository to help us reach our goal!
+
 ## Overview
 The Auto Cashapp to Litecoin Bot is a Discord bot designed to facilitate the conversion of CashApp funds to Litecoin. Users can interact with the bot through Discord commands and buttons, making the process seamless and automated.
 
@@ -95,4 +97,9 @@ python bot.py
 - `stats.json`: Tracks the total number of deals completed and the total amount of deals.
 - `webreceipts.txt`: Tracks receipt IDs to avoid duplication. Each receipt ID is stored here once used to ensure it is not reused.
 - `ltc2usd.json`: Automatically updated by the bot with current Litecoin to USD conversion rates. Do not modify it manually.
+
+## Contact
+- **Discord Username**: `akxd`
+
+If you are interested in purchasing the source code, you are most welcome to DM me on Discord.
 
